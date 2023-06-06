@@ -12,6 +12,7 @@
     <use-session-storage></use-session-storage>
     <hr>
     <use-active-element></use-active-element>
+    <use-document-visibility></use-document-visibility>
   </main>
 </template>
 
@@ -27,6 +28,7 @@
   import UseRefHistory from './vueUseComponents/UseRefHistory.vue'
   import UseManualRefHistory from './vueUseComponents/UseManualRefHistory.vue'
   import UseActiveElement from './vueUseComponents/UseActiveElement.vue'
+  import UseDocumentVisibility from './vueUseComponents/UseDocumentVisibility.vue'
 </script>
 
 <style scoped>
