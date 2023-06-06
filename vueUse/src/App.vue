@@ -4,6 +4,7 @@
     <create-injection-state></create-injection-state>
     <create-shared-composable></create-shared-composable>
     <use-async-state></use-async-state>
+    <use-debounced-ref-history></use-debounced-ref-history>
   </main>
 </template>
 
@@ -12,6 +13,7 @@
   import CreateInjectionState from './vueUseComponents/CreateInjectionState.vue'
   import CreateSharedComposable from './vueUseComponents/CreateSharedComposable.vue'
   import UseAsyncState from './vueUseComponents/UseAsyncState.vue'
+  import UseDebouncedRefHistory from './vueUseComponents/UseDebouncedRefHistory.vue'
 </script>
 
 <style scoped>
