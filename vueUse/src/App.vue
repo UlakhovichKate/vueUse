@@ -5,6 +5,7 @@
     <create-shared-composable></create-shared-composable>
     <use-async-state></use-async-state>
     <use-debounced-ref-history></use-debounced-ref-history>
+    <use-last-changed></use-last-changed>
   </main>
 </template>
 
@@ -14,6 +15,7 @@
   import CreateSharedComposable from './vueUseComponents/CreateSharedComposable.vue'
   import UseAsyncState from './vueUseComponents/UseAsyncState.vue'
   import UseDebouncedRefHistory from './vueUseComponents/UseDebouncedRefHistory.vue'
+  import UseLastChanged from './vueUseComponents/UseLastChanged.vue'
 </script>
 
 <style scoped>
