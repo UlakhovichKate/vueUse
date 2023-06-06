@@ -2,12 +2,16 @@
   <main>
     <create-global-state></create-global-state>
     <create-injection-state></create-injection-state>
+    <create-shared-composable></create-shared-composable>
+    <use-async-state></use-async-state>
   </main>
 </template>
 
 <script setup>
   import createGlobalState from './vueUseComponents/CreateGlobalState.vue'
   import CreateInjectionState from './vueUseComponents/CreateInjectionState.vue'
+  import CreateSharedComposable from './vueUseComponents/CreateSharedComposable.vue'
+  import UseAsyncState from './vueUseComponents/UseAsyncState.vue'
 </script>
 
 <style scoped>
