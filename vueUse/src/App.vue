@@ -13,6 +13,7 @@
     <hr>
     <use-active-element></use-active-element>
     <use-document-visibility></use-document-visibility>
+    <use-dragabble></use-dragabble>
   </main>
 </template>
 
@@ -29,6 +30,7 @@
   import UseManualRefHistory from './vueUseComponents/UseManualRefHistory.vue'
   import UseActiveElement from './vueUseComponents/UseActiveElement.vue'
   import UseDocumentVisibility from './vueUseComponents/UseDocumentVisibility.vue'
+  import UseDragabble from './vueUseComponents/UseDragabble.vue'
 </script>
 
 <style scoped>
