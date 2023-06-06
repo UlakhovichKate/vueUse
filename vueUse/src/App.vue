@@ -10,6 +10,8 @@
     <use-last-changed></use-last-changed>
     <use-storage></use-storage>
     <use-session-storage></use-session-storage>
+    <hr>
+    <use-active-element></use-active-element>
   </main>
 </template>
 
@@ -24,6 +26,7 @@
   import UseSessionStorage from './vueUseComponents/UseSessionStorage.vue'
   import UseRefHistory from './vueUseComponents/UseRefHistory.vue'
   import UseManualRefHistory from './vueUseComponents/UseManualRefHistory.vue'
+  import UseActiveElement from './vueUseComponents/UseActiveElement.vue'
 </script>
 
 <style scoped>
