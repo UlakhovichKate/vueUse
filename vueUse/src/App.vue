@@ -1,11 +1,13 @@
 <template>
   <main>
     <create-global-state></create-global-state>
+    <create-injection-state></create-injection-state>
   </main>
 </template>
 
 <script setup>
   import createGlobalState from './vueUseComponents/CreateGlobalState.vue'
+  import CreateInjectionState from './vueUseComponents/CreateInjectionState.vue'
 </script>
 
 <style scoped>
