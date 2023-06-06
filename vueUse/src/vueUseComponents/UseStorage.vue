@@ -1,4 +1,5 @@
 <template>
+    <h2>Use Storage</h2>
     <div>
         <input v-model="state.name" type="text">
         <input v-model="state.color" type="text">
