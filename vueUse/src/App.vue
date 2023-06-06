@@ -5,6 +5,8 @@
     <create-shared-composable></create-shared-composable>
     <use-async-state></use-async-state>
     <use-debounced-ref-history></use-debounced-ref-history>
+    <use-manual-ref-history></use-manual-ref-history>
+    <use-ref-history></use-ref-history>
     <use-last-changed></use-last-changed>
     <use-storage></use-storage>
     <use-session-storage></use-session-storage>
@@ -20,6 +22,8 @@
   import UseLastChanged from './vueUseComponents/UseLastChanged.vue'
   import UseStorage from './vueUseComponents/UseStorage.vue'
   import UseSessionStorage from './vueUseComponents/UseSessionStorage.vue'
+  import UseRefHistory from './vueUseComponents/UseRefHistory.vue'
+  import UseManualRefHistory from './vueUseComponents/UseManualRefHistory.vue'
 </script>
 
 <style scoped>
