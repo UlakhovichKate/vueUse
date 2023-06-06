@@ -6,6 +6,8 @@
     <use-async-state></use-async-state>
     <use-debounced-ref-history></use-debounced-ref-history>
     <use-last-changed></use-last-changed>
+    <use-storage></use-storage>
+    <use-session-storage></use-session-storage>
   </main>
 </template>
 
@@ -16,6 +18,8 @@
   import UseAsyncState from './vueUseComponents/UseAsyncState.vue'
   import UseDebouncedRefHistory from './vueUseComponents/UseDebouncedRefHistory.vue'
   import UseLastChanged from './vueUseComponents/UseLastChanged.vue'
+  import UseStorage from './vueUseComponents/UseStorage.vue'
+  import UseSessionStorage from './vueUseComponents/UseSessionStorage.vue'
 </script>
 
 <style scoped>
