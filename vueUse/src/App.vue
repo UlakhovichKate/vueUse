@@ -31,6 +31,7 @@
     <use-breakpoints/>
     <use-broadcast-channel/>
     <use-browser-location/>
+    <use-clipboard/>
   </main>
 </template>
 
@@ -64,6 +65,7 @@
   import UseBreakpoints from "./vueUseComponents/UseBreakpoints.vue";
   import UseBroadcastChannel from "./vueUseComponents/UseBroadcastChannel.vue";
   import UseBrowserLocation from "./vueUseComponents/UseBrowserLocation.vue";
+  import UseClipboard from "./vueUseComponents/UseClipboard.vue";
 
 
 </script>
