@@ -18,6 +18,7 @@
     <use-element-bounding/>
     <use-element-size/>
     <use-element-visibility/>
+    <use-intersection-observer/>
   </main>
 </template>
 
@@ -39,6 +40,8 @@
   import UseElementBounding from './vueUseComponents/UseElementBounding.vue'
   import UseElementSize from './vueUseComponents/UseElementSize.vue'
   import UseElementVisibility from './vueUseComponents/UseElementVisibility.vue'
+  import UseIntersectionObserver from "./vueUseComponents/UseIntersectionObserver.vue";
+
 
 
 </script>
