@@ -21,6 +21,7 @@
     <use-intersection-observer/>
     <use-mouse-in-element/>
     <use-mutation-observer/>
+    <use-parent-element/>
   </main>
 </template>
 
@@ -45,7 +46,7 @@
   import UseIntersectionObserver from "./vueUseComponents/UseIntersectionObserver.vue";
   import UseMouseInElement from "./vueUseComponents/UseMouseInElement.vue";
   import UseMutationObserver from "./vueUseComponents/UseMutationObserver.vue";
-
+  import UseParentElement from "./vueUseComponents/UseParentElement.vue";
 
 
 </script>
