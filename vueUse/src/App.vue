@@ -25,6 +25,7 @@
     <use-resize-observer/>
     <use-window-focus/>
     <use-window-scroll/>
+    <use-window-size/>
   </main>
 </template>
 
@@ -53,7 +54,7 @@
   import UseResizeObserver from "./vueUseComponents/UseResizeObserver.vue";
   import UseWindowFocus from "./vueUseComponents/UseWindowFocus.vue";
   import UseWindowScroll from "./vueUseComponents/UseWindowScroll.vue";
-
+  import UseWindowSize from "./vueUseComponents/UseWindowSize.vue";
 
 </script>
 
