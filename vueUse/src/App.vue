@@ -15,6 +15,7 @@
     <use-document-visibility></use-document-visibility>
     <use-dragabble></use-dragabble>
     <use-drop-zone></use-drop-zone>
+    <use-element-bounding></use-element-bounding>
   </main>
 </template>
 
@@ -33,6 +34,9 @@
   import UseDocumentVisibility from './vueUseComponents/UseDocumentVisibility.vue'
   import UseDragabble from './vueUseComponents/UseDragabble.vue'
   import UseDropZone from './vueUseComponents/UseDropZone.vue'
+  import UseElementBounding from './vueUseComponents/UseElementBounding.vue'
+
+
 </script>
 
 <style scoped>
