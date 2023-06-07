@@ -26,6 +26,8 @@
     <use-window-focus/>
     <use-window-scroll/>
     <use-window-size/>
+    <hr>
+    <use-bluetooth/>
   </main>
 </template>
 
@@ -55,6 +57,7 @@
   import UseWindowFocus from "./vueUseComponents/UseWindowFocus.vue";
   import UseWindowScroll from "./vueUseComponents/UseWindowScroll.vue";
   import UseWindowSize from "./vueUseComponents/UseWindowSize.vue";
+  import UseBluetooth from "./vueUseComponents/UseBluetooth.vue";
 
 </script>
 
