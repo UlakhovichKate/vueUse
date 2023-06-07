@@ -28,6 +28,7 @@
     <use-window-size/>
     <hr>
     <use-bluetooth/>
+    <use-breakpoints/>
   </main>
 </template>
 
@@ -58,6 +59,7 @@
   import UseWindowScroll from "./vueUseComponents/UseWindowScroll.vue";
   import UseWindowSize from "./vueUseComponents/UseWindowSize.vue";
   import UseBluetooth from "./vueUseComponents/UseBluetooth.vue";
+  import UseBreakpoints from "./vueUseComponents/UseBreakpoints.vue";
 
 </script>
 
