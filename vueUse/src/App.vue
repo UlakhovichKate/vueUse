@@ -24,6 +24,7 @@
     <use-parent-element/>
     <use-resize-observer/>
     <use-window-focus/>
+    <use-window-scroll/>
   </main>
 </template>
 
@@ -51,6 +52,7 @@
   import UseParentElement from "./vueUseComponents/UseParentElement.vue";
   import UseResizeObserver from "./vueUseComponents/UseResizeObserver.vue";
   import UseWindowFocus from "./vueUseComponents/UseWindowFocus.vue";
+  import UseWindowScroll from "./vueUseComponents/UseWindowScroll.vue";
 
 
 </script>
