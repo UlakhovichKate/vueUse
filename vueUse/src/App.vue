@@ -22,6 +22,7 @@
     <use-mouse-in-element/>
     <use-mutation-observer/>
     <use-parent-element/>
+    <use-resize-observer/>
   </main>
 </template>
 
@@ -47,6 +48,7 @@
   import UseMouseInElement from "./vueUseComponents/UseMouseInElement.vue";
   import UseMutationObserver from "./vueUseComponents/UseMutationObserver.vue";
   import UseParentElement from "./vueUseComponents/UseParentElement.vue";
+  import UseResizeObserver from "./vueUseComponents/UseResizeObserver.vue";
 
 
 </script>
