@@ -30,6 +30,7 @@
     <use-bluetooth/>
     <use-breakpoints/>
     <use-broadcast-channel/>
+    <use-browser-location/>
   </main>
 </template>
 
@@ -62,6 +63,7 @@
   import UseBluetooth from "./vueUseComponents/UseBluetooth.vue";
   import UseBreakpoints from "./vueUseComponents/UseBreakpoints.vue";
   import UseBroadcastChannel from "./vueUseComponents/UseBroadcastChannel.vue";
+  import UseBrowserLocation from "./vueUseComponents/UseBrowserLocation.vue";
 
 
 </script>
