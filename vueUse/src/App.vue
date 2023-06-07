@@ -23,6 +23,7 @@
     <use-mutation-observer/>
     <use-parent-element/>
     <use-resize-observer/>
+    <use-window-focus/>
   </main>
 </template>
 
@@ -49,6 +50,7 @@
   import UseMutationObserver from "./vueUseComponents/UseMutationObserver.vue";
   import UseParentElement from "./vueUseComponents/UseParentElement.vue";
   import UseResizeObserver from "./vueUseComponents/UseResizeObserver.vue";
+  import UseWindowFocus from "./vueUseComponents/UseWindowFocus.vue";
 
 
 </script>
