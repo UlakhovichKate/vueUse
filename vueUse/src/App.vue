@@ -17,6 +17,7 @@
     <use-drop-zone/>
     <use-element-bounding/>
     <use-element-size/>
+    <use-element-visibility/>
   </main>
 </template>
 
@@ -37,6 +38,7 @@
   import UseDropZone from './vueUseComponents/UseDropZone.vue'
   import UseElementBounding from './vueUseComponents/UseElementBounding.vue'
   import UseElementSize from './vueUseComponents/UseElementSize.vue'
+  import UseElementVisibility from './vueUseComponents/UseElementVisibility.vue'
 
 
 </script>
