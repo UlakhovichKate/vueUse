@@ -1,21 +1,22 @@
 <template>
   <main>
-    <create-global-state></create-global-state>
-    <create-injection-state></create-injection-state>
-    <create-shared-composable></create-shared-composable>
-    <use-async-state></use-async-state>
-    <use-debounced-ref-history></use-debounced-ref-history>
-    <use-manual-ref-history></use-manual-ref-history>
-    <use-ref-history></use-ref-history>
-    <use-last-changed></use-last-changed>
-    <use-storage></use-storage>
-    <use-session-storage></use-session-storage>
+    <create-global-state/>
+    <create-injection-state/>
+    <create-shared-composable/>
+    <use-async-state/>
+    <use-debounced-ref-history/>
+    <use-manual-ref-history/>
+    <use-ref-history/>
+    <use-last-changed/>
+    <use-storage/>
+    <use-session-storage/>
     <hr>
-    <use-active-element></use-active-element>
-    <use-document-visibility></use-document-visibility>
-    <use-dragabble></use-dragabble>
-    <use-drop-zone></use-drop-zone>
-    <use-element-bounding></use-element-bounding>
+    <use-active-element/>
+    <use-document-visibility/>
+    <use-dragabble/>
+    <use-drop-zone/>
+    <use-element-bounding/>
+    <use-element-size/>
   </main>
 </template>
 
@@ -35,6 +36,7 @@
   import UseDragabble from './vueUseComponents/UseDragabble.vue'
   import UseDropZone from './vueUseComponents/UseDropZone.vue'
   import UseElementBounding from './vueUseComponents/UseElementBounding.vue'
+  import UseElementSize from './vueUseComponents/UseElementSize.vue'
 
 
 </script>
