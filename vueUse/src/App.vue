@@ -20,6 +20,7 @@
     <use-element-visibility/>
     <use-intersection-observer/>
     <use-mouse-in-element/>
+    <use-mutation-observer/>
   </main>
 </template>
 
@@ -43,6 +44,8 @@
   import UseElementVisibility from './vueUseComponents/UseElementVisibility.vue'
   import UseIntersectionObserver from "./vueUseComponents/UseIntersectionObserver.vue";
   import UseMouseInElement from "./vueUseComponents/UseMouseInElement.vue";
+  import UseMutationObserver from "./vueUseComponents/UseMutationObserver.vue";
+
 
 
 </script>
