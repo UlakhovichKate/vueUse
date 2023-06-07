@@ -29,6 +29,7 @@
     <hr>
     <use-bluetooth/>
     <use-breakpoints/>
+    <use-broadcast-channel/>
   </main>
 </template>
 
@@ -60,6 +61,8 @@
   import UseWindowSize from "./vueUseComponents/UseWindowSize.vue";
   import UseBluetooth from "./vueUseComponents/UseBluetooth.vue";
   import UseBreakpoints from "./vueUseComponents/UseBreakpoints.vue";
+  import UseBroadcastChannel from "./vueUseComponents/UseBroadcastChannel.vue";
+
 
 </script>
 
