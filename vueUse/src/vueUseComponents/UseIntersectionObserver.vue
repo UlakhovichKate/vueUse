@@ -16,6 +16,7 @@ const { isActive, pause, resume } = useIntersectionObserver(
 </script>
 
 <template>
+  <h2>Use Intersection Observer</h2>
   <div class="text-center">
     <label class="checkbox">
       <input
