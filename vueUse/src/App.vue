@@ -47,6 +47,7 @@
     <use-media-query/>
     <use-memory/>
     <use-object-url/>
+    <use-perfomance-observer/>
   </main>
 </template>
 
@@ -96,6 +97,7 @@
   import UseMediaQuery from "./vueUseComponents/UseMediaQuery.vue";
   import UseMemory from "./vueUseComponents/UseMemory.vue";
   import UseObjectUrl from "./vueUseComponents/UseObjectUrl.vue";
+  import UsePerfomanceObserver from "./vueUseComponents/UsePerfomanceObserver.vue";
 
 
 </script>
