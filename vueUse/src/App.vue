@@ -34,6 +34,7 @@
     <use-clipboard/>
     <use-color-mode/>
     <use-css-var/>
+    <use-dark/>
   </main>
 </template>
 
@@ -70,6 +71,7 @@
   import UseClipboard from "./vueUseComponents/UseClipboard.vue";
   import UseColorMode from "./vueUseComponents/UseColorMode.vue";
   import UseCssVar from "./vueUseComponents/UseCssVar.vue";
+  import UseDark from "./vueUseComponents/UseDark.vue";
 
 
 
