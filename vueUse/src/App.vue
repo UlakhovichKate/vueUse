@@ -35,6 +35,7 @@
     <use-color-mode/>
     <use-css-var/>
     <use-dark/>
+    <use-event-listener/>
   </main>
 </template>
 
@@ -72,13 +73,10 @@
   import UseColorMode from "./vueUseComponents/UseColorMode.vue";
   import UseCssVar from "./vueUseComponents/UseCssVar.vue";
   import UseDark from "./vueUseComponents/UseDark.vue";
-
-
+  import UseEventListener from "./vueUseComponents/UseEventListener.vue";
 
 </script>
 
-<style>
-h2 {
-  margin-top: 50px;
-}
+<style scoped>
+
 </style>
