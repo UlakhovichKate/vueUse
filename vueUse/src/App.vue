@@ -37,6 +37,7 @@
     <use-dark/>
     <use-event-listener/>
     <use-eye-dropper/>
+    <use-favicon/>
   </main>
 </template>
 
@@ -76,6 +77,7 @@
   import UseDark from "./vueUseComponents/UseDark.vue";
   import UseEventListener from "./vueUseComponents/UseEventListener.vue";
   import UseEyeDropper from "./vueUseComponents/UseEyeDropper.vue";
+  import UseFavicon from "./vueUseComponents/UseFavicon.vue";
 
 </script>
 
