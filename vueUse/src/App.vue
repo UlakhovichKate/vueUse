@@ -41,6 +41,7 @@
     <use-file-dialog/>
     <use-file-system-access/>
     <use-full-screen/>
+    <use-gamepad/>
   </main>
 </template>
 
@@ -84,6 +85,7 @@
   import UseFileDialog from "./vueUseComponents/UseFileDialog.vue";
   import UseFileSystemAccess from "./vueUseComponents/UseFileSystemAccess.vue";
   import UseFullScreen from "./vueUseComponents/UseFullScreen.vue";
+  import UseGamepad from "./vueUseComponents/UseGamepad.vue";
 
 
 </script>
