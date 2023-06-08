@@ -36,6 +36,7 @@
     <use-css-var/>
     <use-dark/>
     <use-event-listener/>
+    <use-eye-dropper/>
   </main>
 </template>
 
@@ -74,6 +75,7 @@
   import UseCssVar from "./vueUseComponents/UseCssVar.vue";
   import UseDark from "./vueUseComponents/UseDark.vue";
   import UseEventListener from "./vueUseComponents/UseEventListener.vue";
+  import UseEyeDropper from "./vueUseComponents/UseEyeDropper.vue";
 
 </script>
 
