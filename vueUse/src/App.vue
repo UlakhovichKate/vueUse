@@ -49,6 +49,7 @@
     <use-object-url/>
     <use-perfomance-observer/>
     <use-permission/>
+    <use-prefered-color-scheme/>
   </main>
 </template>
 
@@ -100,6 +101,8 @@
   import UseObjectUrl from "./vueUseComponents/UseObjectUrl.vue";
   import UsePerfomanceObserver from "./vueUseComponents/UsePerfomanceObserver.vue";
   import UsePermission from "./vueUseComponents/UsePermission.vue";
+  import UsePreferedColorScheme from "./vueUseComponents/UsePreferedColorScheme.vue";
+
 
 </script>
 
