@@ -40,6 +40,7 @@
     <use-favicon/>
     <use-file-dialog/>
     <use-file-system-access/>
+    <use-full-screen/>
   </main>
 </template>
 
@@ -82,6 +83,7 @@
   import UseFavicon from "./vueUseComponents/UseFavicon.vue";
   import UseFileDialog from "./vueUseComponents/UseFileDialog.vue";
   import UseFileSystemAccess from "./vueUseComponents/UseFileSystemAccess.vue";
+  import UseFullScreen from "./vueUseComponents/UseFullScreen.vue";
 
 
 </script>
