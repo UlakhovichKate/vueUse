@@ -46,6 +46,7 @@
     <use-media-controls/>
     <use-media-query/>
     <use-memory/>
+    <use-object-url/>
   </main>
 </template>
 
@@ -94,6 +95,7 @@
   import UseMediaControls from "./vueUseComponents/UseMediaControls.vue";
   import UseMediaQuery from "./vueUseComponents/UseMediaQuery.vue";
   import UseMemory from "./vueUseComponents/UseMemory.vue";
+  import UseObjectUrl from "./vueUseComponents/UseObjectUrl.vue";
 
 
 </script>
