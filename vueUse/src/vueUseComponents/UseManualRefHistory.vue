@@ -31,7 +31,7 @@
     </button>
     <br>
     <br>
-    <note>History (limited to 10 records for demo)</note>
+    <p>History (limited to 10 records for demo)</p>
     <div class="code-block mt-4">
         <div v-for="i in history" :key="i.timestamp">
             <span class="opacity-50 mr-2 font-mono">{{ format(i.timestamp) }}</span>

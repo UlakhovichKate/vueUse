@@ -1,9 +1,9 @@
 <template>
   <h2>Use Element Visibility</h2>
   <div>
-    <note class="mb-2">
+    <p class="mb-2">
       Info on the right bottom corner
-    </note>
+    </p>
     <div ref="el" class="max-w-100 relative area bg-white dark:bg-gray-800 shadow-lg z-60">
       Target Element (scroll down)
     </div>

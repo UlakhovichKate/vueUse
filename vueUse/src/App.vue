@@ -42,6 +42,7 @@
     <use-file-system-access/>
     <use-full-screen/>
     <use-gamepad/>
+    <use-image/>
   </main>
 </template>
 
@@ -86,6 +87,7 @@
   import UseFileSystemAccess from "./vueUseComponents/UseFileSystemAccess.vue";
   import UseFullScreen from "./vueUseComponents/UseFullScreen.vue";
   import UseGamepad from "./vueUseComponents/UseGamepad.vue";
+  import UseImage from "./vueUseComponents/UseImage.vue";
 
 
 </script>

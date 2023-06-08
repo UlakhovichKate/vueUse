@@ -28,7 +28,7 @@
             <img src="/favicon.ico" alt="Drop me">
 
             <div ref="dropZoneRef" class="drop">
-                <div> isOverDropZone: <BooleanDisplay :value="isOverDropZone" /></div>
+                <div> isOverDropZone: {{ isOverDropZone }}</div>
                 <div class="flex flex-wrap justify-center items-center">
                     <div v-for="(file, index) in filesData" :key="index" class="w-200px bg-black-200/10 ma-2 pa-6">
                         <p>Name: {{ file.name }}</p>
