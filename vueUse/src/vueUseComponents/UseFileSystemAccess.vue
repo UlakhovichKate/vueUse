@@ -33,17 +33,17 @@ async function onSave() {
 <template>
   <h2>Use File System Access</h2>
   <div>
-    <div class="d-flex">
-      <button @click="res.open()">
+    <div class="">
+      <button class="btn btn-primary" @click="res.open()">
         Open
       </button>
-      <button @click="res.create()">
+      <button class="btn btn-secondary" @click="res.create()">
         New file
       </button>
-      <button :disabled="!res.file.value" @click="onSave">
+      <button class="btn btn-danger" :disabled="!res.file.value" @click="onSave">
         Save
       </button>
-      <button :disabled="!res.file.value" @click="res.saveAs()">
+      <button class="btn btn-dark" :disabled="!res.file.value" @click="res.saveAs()">
         Save as
       </button>
 
