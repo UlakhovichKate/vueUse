@@ -44,6 +44,7 @@
     <use-gamepad/>
     <use-image/>
     <use-media-controls/>
+    <use-media-query/>
   </main>
 </template>
 
@@ -90,6 +91,7 @@
   import UseGamepad from "./vueUseComponents/UseGamepad.vue";
   import UseImage from "./vueUseComponents/UseImage.vue";
   import UseMediaControls from "./vueUseComponents/UseMediaControls.vue";
+  import UseMediaQuery from "./vueUseComponents/UseMediaQuery.vue";
 
 
 </script>

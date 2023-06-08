@@ -1,4 +1,5 @@
 <template>
+  <h2>Use Media Controls</h2>
   <video width="320" height="240" controls ref="video"></video><br>
   <button class="btn btn-primary" @click="playBtn(controls.playing)">Play / Pause</button>
   <span>{{ controls.currentTime }} / {{ controls.duration }}</span>
