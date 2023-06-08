@@ -1,5 +1,5 @@
 <template>
-    <h2>create global state</h2>
+    <h2>Create Global State</h2>
     <div>
         <input v-model="state.name" type="text">
         <input v-model="state.color" type="text">

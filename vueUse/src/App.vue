@@ -48,6 +48,7 @@
     <use-memory/>
     <use-object-url/>
     <use-perfomance-observer/>
+    <use-permission/>
   </main>
 </template>
 
@@ -98,7 +99,7 @@
   import UseMemory from "./vueUseComponents/UseMemory.vue";
   import UseObjectUrl from "./vueUseComponents/UseObjectUrl.vue";
   import UsePerfomanceObserver from "./vueUseComponents/UsePerfomanceObserver.vue";
-
+  import UsePermission from "./vueUseComponents/UsePermission.vue";
 
 </script>
 
