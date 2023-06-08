@@ -38,6 +38,7 @@
     <use-event-listener/>
     <use-eye-dropper/>
     <use-favicon/>
+    <use-file-dialog/>
   </main>
 </template>
 
@@ -78,6 +79,8 @@
   import UseEventListener from "./vueUseComponents/UseEventListener.vue";
   import UseEyeDropper from "./vueUseComponents/UseEyeDropper.vue";
   import UseFavicon from "./vueUseComponents/UseFavicon.vue";
+  import UseFileDialog from "./vueUseComponents/UseFileDialog.vue";
+
 
 </script>
 
