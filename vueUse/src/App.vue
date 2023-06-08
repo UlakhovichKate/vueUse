@@ -32,6 +32,7 @@
     <use-broadcast-channel/>
     <use-browser-location/>
     <use-clipboard/>
+    <use-color-mode/>
   </main>
 </template>
 
@@ -66,6 +67,7 @@
   import UseBroadcastChannel from "./vueUseComponents/UseBroadcastChannel.vue";
   import UseBrowserLocation from "./vueUseComponents/UseBrowserLocation.vue";
   import UseClipboard from "./vueUseComponents/UseClipboard.vue";
+  import UseColorMode from "./vueUseComponents/UseColorMode.vue";
 
 
 </script>
