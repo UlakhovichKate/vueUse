@@ -39,6 +39,7 @@
     <use-eye-dropper/>
     <use-favicon/>
     <use-file-dialog/>
+    <use-file-system-access/>
   </main>
 </template>
 
@@ -80,6 +81,7 @@
   import UseEyeDropper from "./vueUseComponents/UseEyeDropper.vue";
   import UseFavicon from "./vueUseComponents/UseFavicon.vue";
   import UseFileDialog from "./vueUseComponents/UseFileDialog.vue";
+  import UseFileSystemAccess from "./vueUseComponents/UseFileSystemAccess.vue";
 
 
 </script>
