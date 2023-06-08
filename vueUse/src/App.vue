@@ -50,6 +50,7 @@
     <use-perfomance-observer/>
     <use-permission/>
     <use-prefered-color-scheme/>
+    <use-screen-orientation/>
   </main>
 </template>
 
@@ -102,6 +103,7 @@
   import UsePerfomanceObserver from "./vueUseComponents/UsePerfomanceObserver.vue";
   import UsePermission from "./vueUseComponents/UsePermission.vue";
   import UsePreferedColorScheme from "./vueUseComponents/UsePreferedColorScheme.vue";
+  import UseScreenOrientation from "./vueUseComponents/UseScreenOrientation.vue";
 
 
 </script>
