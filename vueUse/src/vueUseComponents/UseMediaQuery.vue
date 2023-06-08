@@ -4,6 +4,7 @@
     <div>isLargeScreen: {{ isLargeScreen }}</div>
     <div>isPreferredDark: {{ isPreferredDark }}</div>
   </div>
+  <div v-if="isLargeScreen" class="border-1 bg-info">display it if isLargeScreen</div>
 </template>
 
 <script setup>
