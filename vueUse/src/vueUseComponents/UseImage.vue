@@ -2,7 +2,7 @@
 import { useImage } from '@vueuse/core'
 import {ref} from "@vue/reactivity";
 
-const avatarUrl = ref('https://place.dog/300/200')
+const avatarUrl = ref('#')
 const { isLoading } = useImage({ src: avatarUrl.value })
 
 setTimeout(() => {
@@ -14,6 +14,6 @@ setTimeout(() => {
   <div>
     <h2>Use Image</h2>
     <span v-if="isLoading">Loading</span>
-    <img v-else :src="avatarUrl">
+    <img class="img-thumbnail" v-else :src="avatarUrl">
   </div>
 </template>

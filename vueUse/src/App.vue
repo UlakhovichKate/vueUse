@@ -43,6 +43,7 @@
     <use-full-screen/>
     <use-gamepad/>
     <use-image/>
+    <use-media-controls/>
   </main>
 </template>
 
@@ -88,6 +89,7 @@
   import UseFullScreen from "./vueUseComponents/UseFullScreen.vue";
   import UseGamepad from "./vueUseComponents/UseGamepad.vue";
   import UseImage from "./vueUseComponents/UseImage.vue";
+  import UseMediaControls from "./vueUseComponents/UseMediaControls.vue";
 
 
 </script>
