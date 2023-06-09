@@ -6,6 +6,7 @@
   <use-battery/>
   <use-device-motion/>
   <use-device-orientation/>
+  <use-device-pixel-ratio/>
 </template>
 
 <script setup>
@@ -16,6 +17,7 @@ import OnStartTyping from "../vueUseComponents/OnStartTyping.vue";
 import UseBattery from "../vueUseComponents/UseBattery.vue";
 import UseDeviceMotion from "../vueUseComponents/UseDeviceMotion.vue";
 import UseDeviceOrientation from "../vueUseComponents/UseDeviceOrientation.vue";
+import UseDevicePixelRatio from "../vueUseComponents/UseDevicePixelRatio.vue";
 
 
 </script>
