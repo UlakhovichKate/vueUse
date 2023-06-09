@@ -11,9 +11,7 @@ const { isSupported, orientation, angle } = useScreenOrientation()
     orientation change)
   </p>
   <div>
-    isSupported: <boolean-display :value="isSupported">
-    {{ isSupported }}
-  </boolean-display>
+    isSupported: {{ isSupported }}
   </div>
   <div>Orientation Type: <b>{{ orientation }}</b></div>
   <div>Orientation Angle: <b>{{ angle }}</b></div>
