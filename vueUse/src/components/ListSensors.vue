@@ -10,6 +10,7 @@
   <use-devices-list/>
   <use-display-media/>
   <use-element-by-point/>
+  <use-hover/>
 </template>
 
 <script setup>
@@ -24,6 +25,7 @@ import UseDevicePixelRatio from "../vueUseComponents/UseDevicePixelRatio.vue";
 import UseDevicesList from "../vueUseComponents/UseDevicesList.vue";
 import UseDisplayMedia from "../vueUseComponents/UseDisplayMedia.vue";
 import UseElementByPoint from "../vueUseComponents/UseElementByPoint.vue";
+import UseHover from "../vueUseComponents/UseHover.vue";
 
 
 </script>
