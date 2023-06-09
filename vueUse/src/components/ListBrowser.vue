@@ -29,6 +29,7 @@
   <use-style-tag/>
   <use-textarea-autosize/>
   <use-text-direction/>
+  <use-title/>
   <use-web-worker-fnn/>
 </template>
 
@@ -64,6 +65,7 @@ import UseShare from "../vueUseComponents/UseShare.vue";
 import UseStyleTag from "../vueUseComponents/UseStyleTag.vue";
 import UseTextareaAutosize from "../vueUseComponents/UseTextareaAutosize.vue";
 import UseTextDirection from "../vueUseComponents/UseTextDirection.vue";
+import UseTitle from "../vueUseComponents/UseTitle.vue";
 
 
 </script>
