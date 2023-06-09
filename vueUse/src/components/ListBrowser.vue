@@ -24,6 +24,7 @@
   <use-prefered-color-scheme/>
   <use-screen-orientation/>
   <use-screen-safe-area/>
+  <use-script-tag/>
   <use-web-worker-fnn/>
 </template>
 
@@ -54,6 +55,7 @@ import UsePreferedColorScheme from "../vueUseComponents/UsePreferedColorScheme.v
 import UseScreenOrientation from "../vueUseComponents/UseScreenOrientation.vue";
 import UseWebWorkerFnn from "../vueUseComponents/UseWebWorkerFnn.vue";
 import UseScreenSafeArea from "../vueUseComponents/UseScreenSafeArea.vue";
+import UseScriptTag from "../vueUseComponents/UseScriptTag.vue";
 
 
 </script>
