@@ -26,6 +26,7 @@
   <use-screen-safe-area/>
   <use-script-tag/>
   <use-share/>
+  <use-style-tag/>
   <use-web-worker-fnn/>
 </template>
 
@@ -58,7 +59,7 @@ import UseWebWorkerFnn from "../vueUseComponents/UseWebWorkerFnn.vue";
 import UseScreenSafeArea from "../vueUseComponents/UseScreenSafeArea.vue";
 import UseScriptTag from "../vueUseComponents/UseScriptTag.vue";
 import UseShare from "../vueUseComponents/UseShare.vue";
-
+import UseStyleTag from "../vueUseComponents/UseStyleTag.vue";
 
 </script>
 
