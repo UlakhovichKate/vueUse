@@ -31,6 +31,7 @@
   <use-text-direction/>
   <use-title/>
   <use-url-searchparams/>
+  <use-vibrate/>
   <use-web-worker-fnn/>
 </template>
 
@@ -68,7 +69,7 @@ import UseTextareaAutosize from "../vueUseComponents/UseTextareaAutosize.vue";
 import UseTextDirection from "../vueUseComponents/UseTextDirection.vue";
 import UseTitle from "../vueUseComponents/UseTitle.vue";
 import UseUrlSearchparams from "../vueUseComponents/UseUrlSearchparams.vue";
-
+import UseVibrate from "../vueUseComponents/UseVibrate.vue";
 
 </script>
 
