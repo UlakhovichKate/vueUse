@@ -1,11 +1,11 @@
 <script setup lang="ts">
-    import { useProvideCounterStore } from './../composables/useCounterStore'
+import { useProvideCounterStore } from '../composables/useCounterStore.ts'
 
-    useProvideCounterStore(0)
+useProvideCounterStore(0)
 </script>
 
 <template>
-    <div>
-        <slot />
-    </div>
+  <div>
+    <slot />
+  </div>
 </template>

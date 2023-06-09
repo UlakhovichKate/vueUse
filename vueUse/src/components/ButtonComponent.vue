@@ -1,12 +1,12 @@
 <script setup lang="ts">
-    import { useCounterStore } from './../composables/useCounterStore'
+import { useCounterStore } from '../composables/useCounterStore.ts'
 
-    // use non-null assertion operator to ignore the case that store is not provided.
-    const { increment } = useCounterStore()!
+// use non-null assertion operator to ignore the case that store is not provided.
+const { increment } = useCounterStore()!
 </script>
 
 <template>
-    <button @click="increment">
-        +
-    </button>
+  <button @click="increment">
+    +
+  </button>
 </template>
