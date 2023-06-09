@@ -24,7 +24,7 @@ onKeyStroke(['d', 'D', 'ArrowRight'], () => {
 
 <template>
   <div>
-    <h2>On Keys Stroke</h2>
+    <h2>On Key Stroke</h2>
     <div class="container m-0 border-base">
       <div class="ball" :style="{ transform: `translate(${translateX}px, ${translateY}px)` }" />
     </div>
