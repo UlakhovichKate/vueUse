@@ -7,6 +7,7 @@
   <use-device-motion/>
   <use-device-orientation/>
   <use-device-pixel-ratio/>
+  <use-devices-list/>
 </template>
 
 <script setup>
@@ -18,6 +19,7 @@ import UseBattery from "../vueUseComponents/UseBattery.vue";
 import UseDeviceMotion from "../vueUseComponents/UseDeviceMotion.vue";
 import UseDeviceOrientation from "../vueUseComponents/UseDeviceOrientation.vue";
 import UseDevicePixelRatio from "../vueUseComponents/UseDevicePixelRatio.vue";
+import UseDevicesList from "../vueUseComponents/UseDevicesList.vue";
 
 
 </script>
