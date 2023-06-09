@@ -9,6 +9,7 @@
   <use-device-pixel-ratio/>
   <use-devices-list/>
   <use-display-media/>
+  <use-element-by-point/>
 </template>
 
 <script setup>
@@ -22,6 +23,7 @@ import UseDeviceOrientation from "../vueUseComponents/UseDeviceOrientation.vue";
 import UseDevicePixelRatio from "../vueUseComponents/UseDevicePixelRatio.vue";
 import UseDevicesList from "../vueUseComponents/UseDevicesList.vue";
 import UseDisplayMedia from "../vueUseComponents/UseDisplayMedia.vue";
+import UseElementByPoint from "../vueUseComponents/UseElementByPoint.vue";
 
 
 </script>
