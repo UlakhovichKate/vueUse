@@ -5,6 +5,7 @@
   <on-start-typing/>
   <use-battery/>
   <use-device-motion/>
+  <use-device-orientation/>
 </template>
 
 <script setup>
@@ -14,6 +15,8 @@ import OnLongPress from "../vueUseComponents/OnLongPress.vue";
 import OnStartTyping from "../vueUseComponents/OnStartTyping.vue";
 import UseBattery from "../vueUseComponents/UseBattery.vue";
 import UseDeviceMotion from "../vueUseComponents/UseDeviceMotion.vue";
+import UseDeviceOrientation from "../vueUseComponents/UseDeviceOrientation.vue";
+
 
 </script>
 
