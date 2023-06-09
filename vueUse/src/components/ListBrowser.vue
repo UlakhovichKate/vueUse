@@ -33,6 +33,7 @@
   <use-url-searchparams/>
   <use-vibrate/>
   <use-wake-lock/>
+  <use-web-notifications/>
   <use-web-worker-fnn/>
 </template>
 
@@ -72,8 +73,7 @@ import UseTitle from "../vueUseComponents/UseTitle.vue";
 import UseUrlSearchparams from "../vueUseComponents/UseUrlSearchparams.vue";
 import UseVibrate from "../vueUseComponents/UseVibrate.vue";
 import UseWakeLock from "../vueUseComponents/UseWakeLock.vue";
-
-
+import UseWebNotifications from "../vueUseComponents/UseWebNotifications.vue";
 </script>
 
 <style scoped>
