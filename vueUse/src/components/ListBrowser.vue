@@ -32,6 +32,7 @@
   <use-title/>
   <use-url-searchparams/>
   <use-vibrate/>
+  <use-wake-lock/>
   <use-web-worker-fnn/>
 </template>
 
@@ -70,6 +71,8 @@ import UseTextDirection from "../vueUseComponents/UseTextDirection.vue";
 import UseTitle from "../vueUseComponents/UseTitle.vue";
 import UseUrlSearchparams from "../vueUseComponents/UseUrlSearchparams.vue";
 import UseVibrate from "../vueUseComponents/UseVibrate.vue";
+import UseWakeLock from "../vueUseComponents/UseWakeLock.vue";
+
 
 </script>
 
