@@ -4,6 +4,7 @@
   <on-long-press/>
   <on-start-typing/>
   <use-battery/>
+  <use-device-motion/>
 </template>
 
 <script setup>
@@ -12,7 +13,7 @@ import OnKeyStroke from "../vueUseComponents/OnKeyStroke.vue";
 import OnLongPress from "../vueUseComponents/OnLongPress.vue";
 import OnStartTyping from "../vueUseComponents/OnStartTyping.vue";
 import UseBattery from "../vueUseComponents/UseBattery.vue";
-
+import UseDeviceMotion from "../vueUseComponents/UseDeviceMotion.vue";
 
 </script>
 
