@@ -11,6 +11,7 @@
   <use-display-media/>
   <use-element-by-point/>
   <use-hover/>
+  <use-focus/>
 </template>
 
 <script setup>
@@ -26,6 +27,7 @@ import UseDevicesList from "../vueUseComponents/UseDevicesList.vue";
 import UseDisplayMedia from "../vueUseComponents/UseDisplayMedia.vue";
 import UseElementByPoint from "../vueUseComponents/UseElementByPoint.vue";
 import UseHover from "../vueUseComponents/UseHover.vue";
+import UseFocus from "../vueUseComponents/UseFocus.vue";
 
 
 </script>
