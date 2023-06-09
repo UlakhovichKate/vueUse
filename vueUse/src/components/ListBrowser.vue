@@ -23,6 +23,7 @@
   <use-permission/>
   <use-prefered-color-scheme/>
   <use-screen-orientation/>
+  <use-screen-safe-area/>
   <use-web-worker-fnn/>
 </template>
 
@@ -52,6 +53,7 @@ import UsePermission from "../vueUseComponents/UsePermission.vue";
 import UsePreferedColorScheme from "../vueUseComponents/UsePreferedColorScheme.vue";
 import UseScreenOrientation from "../vueUseComponents/UseScreenOrientation.vue";
 import UseWebWorkerFnn from "../vueUseComponents/UseWebWorkerFnn.vue";
+import UseScreenSafeArea from "../vueUseComponents/UseScreenSafeArea.vue";
 
 
 </script>
