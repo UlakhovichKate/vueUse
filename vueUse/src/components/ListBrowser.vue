@@ -30,6 +30,7 @@
   <use-textarea-autosize/>
   <use-text-direction/>
   <use-title/>
+  <use-url-searchparams/>
   <use-web-worker-fnn/>
 </template>
 
@@ -66,6 +67,7 @@ import UseStyleTag from "../vueUseComponents/UseStyleTag.vue";
 import UseTextareaAutosize from "../vueUseComponents/UseTextareaAutosize.vue";
 import UseTextDirection from "../vueUseComponents/UseTextDirection.vue";
 import UseTitle from "../vueUseComponents/UseTitle.vue";
+import UseUrlSearchparams from "../vueUseComponents/UseUrlSearchparams.vue";
 
 
 </script>
