@@ -27,6 +27,7 @@
   <use-script-tag/>
   <use-share/>
   <use-style-tag/>
+  <use-textarea-autosize/>
   <use-web-worker-fnn/>
 </template>
 
@@ -60,6 +61,8 @@ import UseScreenSafeArea from "../vueUseComponents/UseScreenSafeArea.vue";
 import UseScriptTag from "../vueUseComponents/UseScriptTag.vue";
 import UseShare from "../vueUseComponents/UseShare.vue";
 import UseStyleTag from "../vueUseComponents/UseStyleTag.vue";
+import UseTextareaAutosize from "../vueUseComponents/UseTextareaAutosize.vue";
+
 
 </script>
 
