@@ -22,6 +22,11 @@ const routes = [
         name: "showListBrowser",
         component: () => import("../components/ListBrowser.vue"),
       },
+      {
+        path: "sensors",
+        name: "showListSensors",
+        component: () => import("../components/ListSensors.vue"),
+      },
     ],
   },
   {
