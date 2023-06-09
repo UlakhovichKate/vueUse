@@ -13,7 +13,7 @@ const { id, css, load, unload, isLoaded } = useStyleTag(customCSS)
   <h2>Use Style Tag</h2>
   <div class="demo">
     <div>
-      Edit CSS:
+      Edit CSS:<br>
       <textarea v-model="css" type="text" rows="2" class="w-full" />
     </div>
     <button :disabled="isLoaded" @click="load">
