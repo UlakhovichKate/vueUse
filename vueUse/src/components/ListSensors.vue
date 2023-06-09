@@ -13,6 +13,7 @@
   <use-hover/>
   <use-focus/>
   <use-focus-within/>
+  <use-fps/>
 </template>
 
 <script setup>
@@ -30,6 +31,7 @@ import UseElementByPoint from "../vueUseComponents/UseElementByPoint.vue";
 import UseHover from "../vueUseComponents/UseHover.vue";
 import UseFocus from "../vueUseComponents/UseFocus.vue";
 import UseFocusWithin from "../vueUseComponents/UseFocusWithin.vue";
+import UseFps from "../vueUseComponents/UseFps.vue";
 
 
 </script>
