@@ -17,6 +17,7 @@
   <use-geolocation/>
   <use-idle/>
   <use-infinite-scroll/>
+  <use-key-modifier/>
 </template>
 
 <script setup>
@@ -38,7 +39,7 @@ import UseFps from "../vueUseComponents/UseFps.vue";
 import UseGeolocation from "../vueUseComponents/UseGeolocation.vue";
 import UseIdle from "../vueUseComponents/UseIdle.vue";
 import UseInfiniteScroll from "../vueUseComponents/UseInfiniteScroll.vue";
-
+import UseKeyModifier from "../vueUseComponents/UseKeyModifier.vue";
 
 
 </script>
