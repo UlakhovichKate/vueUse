@@ -27,6 +27,7 @@
   <use-page-leave/>
   <use-parallax/>
   <use-pointer/>
+  <use-pointer-lock/>
 </template>
 
 <script setup>
@@ -58,6 +59,7 @@ import UseOnline from "../vueUseComponents/UseOnline.vue";
 import UsePageLeave from "../vueUseComponents/UsePageLeave.vue";
 import UseParallax from "../vueUseComponents/UseParallax.vue";
 import UsePointer from "../vueUseComponents/UsePointer.vue";
+import UsePointerLock from "../vueUseComponents/UsePointerLock.vue";
 
 
 </script>
