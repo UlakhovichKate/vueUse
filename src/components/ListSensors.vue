@@ -16,6 +16,7 @@
   <use-fps/>
   <use-geolocation/>
   <use-idle/>
+  <use-infinite-scroll/>
 </template>
 
 <script setup>
@@ -36,6 +37,8 @@ import UseFocusWithin from "../vueUseComponents/UseFocusWithin.vue";
 import UseFps from "../vueUseComponents/UseFps.vue";
 import UseGeolocation from "../vueUseComponents/UseGeolocation.vue";
 import UseIdle from "../vueUseComponents/UseIdle.vue";
+import UseInfiniteScroll from "../vueUseComponents/UseInfiniteScroll.vue";
+
 
 
 </script>
