@@ -21,6 +21,7 @@
   <use-magic-keys/>
   <use-mouse/>
   <use-mouse-pressed/>
+  <use-navigator-language/>
 </template>
 
 <script setup>
@@ -46,7 +47,7 @@ import UseKeyModifier from "../vueUseComponents/UseKeyModifier.vue";
 import UseMagicKeys from "../vueUseComponents/UseMagicKeys.vue";
 import UseMouse from "../vueUseComponents/UseMouse.vue";
 import UseMousePressed from "../vueUseComponents/UseMousePressed.vue";
-
+import UseNavigatorLanguage from "../vueUseComponents/UseNavigatorLanguage.vue";
 
 </script>
 
