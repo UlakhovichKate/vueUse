@@ -24,6 +24,7 @@
   <use-navigator-language/>
   <use-network/>
   <use-online/>
+  <use-page-leave/>
 </template>
 
 <script setup>
@@ -52,6 +53,7 @@ import UseMousePressed from "../vueUseComponents/UseMousePressed.vue";
 import UseNavigatorLanguage from "../vueUseComponents/UseNavigatorLanguage.vue";
 import UseNetwork from "../vueUseComponents/UseNetwork.vue";
 import UseOnline from "../vueUseComponents/UseOnline.vue";
+import UsePageLeave from "../vueUseComponents/UsePageLeave.vue";
 
 
 
