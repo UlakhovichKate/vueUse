@@ -23,6 +23,7 @@
   <use-mouse-pressed/>
   <use-navigator-language/>
   <use-network/>
+  <use-online/>
 </template>
 
 <script setup>
@@ -50,6 +51,8 @@ import UseMouse from "../vueUseComponents/UseMouse.vue";
 import UseMousePressed from "../vueUseComponents/UseMousePressed.vue";
 import UseNavigatorLanguage from "../vueUseComponents/UseNavigatorLanguage.vue";
 import UseNetwork from "../vueUseComponents/UseNetwork.vue";
+import UseOnline from "../vueUseComponents/UseOnline.vue";
+
 
 
 </script>
