@@ -14,6 +14,7 @@
   <use-focus/>
   <use-focus-within/>
   <use-fps/>
+  <use-geolocation/>
 </template>
 
 <script setup>
@@ -32,6 +33,7 @@ import UseHover from "../vueUseComponents/UseHover.vue";
 import UseFocus from "../vueUseComponents/UseFocus.vue";
 import UseFocusWithin from "../vueUseComponents/UseFocusWithin.vue";
 import UseFps from "../vueUseComponents/UseFps.vue";
+import UseGeolocation from "../vueUseComponents/UseGeolocation.vue";
 
 
 </script>
