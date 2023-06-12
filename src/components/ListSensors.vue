@@ -25,6 +25,7 @@
   <use-network/>
   <use-online/>
   <use-page-leave/>
+  <use-parallax/>
 </template>
 
 <script setup>
@@ -54,7 +55,7 @@ import UseNavigatorLanguage from "../vueUseComponents/UseNavigatorLanguage.vue";
 import UseNetwork from "../vueUseComponents/UseNetwork.vue";
 import UseOnline from "../vueUseComponents/UseOnline.vue";
 import UsePageLeave from "../vueUseComponents/UsePageLeave.vue";
-
+import UseParallax from "../vueUseComponents/UseParallax.vue";
 
 
 </script>
