@@ -15,6 +15,7 @@
   <use-focus-within/>
   <use-fps/>
   <use-geolocation/>
+  <use-idle/>
 </template>
 
 <script setup>
@@ -34,6 +35,7 @@ import UseFocus from "../vueUseComponents/UseFocus.vue";
 import UseFocusWithin from "../vueUseComponents/UseFocusWithin.vue";
 import UseFps from "../vueUseComponents/UseFps.vue";
 import UseGeolocation from "../vueUseComponents/UseGeolocation.vue";
+import UseIdle from "../vueUseComponents/UseIdle.vue";
 
 
 </script>
