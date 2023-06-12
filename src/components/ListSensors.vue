@@ -28,6 +28,7 @@
   <use-parallax/>
   <use-pointer/>
   <use-pointer-lock/>
+  <use-pointer-swipe/>
 </template>
 
 <script setup>
@@ -60,6 +61,8 @@ import UsePageLeave from "../vueUseComponents/UsePageLeave.vue";
 import UseParallax from "../vueUseComponents/UseParallax.vue";
 import UsePointer from "../vueUseComponents/UsePointer.vue";
 import UsePointerLock from "../vueUseComponents/UsePointerLock.vue";
+import UsePointerSwipe from "../vueUseComponents/UsePointerSwipe.vue";
+
 
 
 </script>
