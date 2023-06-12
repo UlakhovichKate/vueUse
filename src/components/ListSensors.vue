@@ -18,6 +18,7 @@
   <use-idle/>
   <use-infinite-scroll/>
   <use-key-modifier/>
+  <use-magic-keys/>
 </template>
 
 <script setup>
@@ -40,6 +41,7 @@ import UseGeolocation from "../vueUseComponents/UseGeolocation.vue";
 import UseIdle from "../vueUseComponents/UseIdle.vue";
 import UseInfiniteScroll from "../vueUseComponents/UseInfiniteScroll.vue";
 import UseKeyModifier from "../vueUseComponents/UseKeyModifier.vue";
+import UseMagicKeys from "../vueUseComponents/UseMagicKeys.vue";
 
 
 </script>
