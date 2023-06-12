@@ -29,6 +29,7 @@
   <use-pointer/>
   <use-pointer-lock/>
   <use-pointer-swipe/>
+  <use-scroll/>
 </template>
 
 <script setup>
@@ -62,7 +63,7 @@ import UseParallax from "../vueUseComponents/UseParallax.vue";
 import UsePointer from "../vueUseComponents/UsePointer.vue";
 import UsePointerLock from "../vueUseComponents/UsePointerLock.vue";
 import UsePointerSwipe from "../vueUseComponents/UsePointerSwipe.vue";
-
+import UseScroll from "../vueUseComponents/UseScroll.vue";
 
 
 </script>
