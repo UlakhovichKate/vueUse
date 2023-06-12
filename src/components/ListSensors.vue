@@ -19,6 +19,7 @@
   <use-infinite-scroll/>
   <use-key-modifier/>
   <use-magic-keys/>
+  <use-mouse/>
 </template>
 
 <script setup>
@@ -42,6 +43,8 @@ import UseIdle from "../vueUseComponents/UseIdle.vue";
 import UseInfiniteScroll from "../vueUseComponents/UseInfiniteScroll.vue";
 import UseKeyModifier from "../vueUseComponents/UseKeyModifier.vue";
 import UseMagicKeys from "../vueUseComponents/UseMagicKeys.vue";
+import UseMouse from "../vueUseComponents/UseMouse.vue";
+
 
 
 </script>
