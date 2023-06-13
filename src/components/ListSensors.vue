@@ -33,6 +33,7 @@
   <use-speech-recognition/>
   <use-speech-synthesis/>
   <use-swipe/>
+  <use-text-selection/>
 </template>
 
 <script setup>
@@ -70,7 +71,7 @@ import UseScroll from "../vueUseComponents/UseScroll.vue";
 import UseSpeechRecognition from "../vueUseComponents/UseSpeechRecognition.vue";
 import UseSpeechSynthesis from "../vueUseComponents/UseSpeechSynthesis.vue";
 import UseSwipe from "../vueUseComponents/UseSwipe.vue";
-
+import UseTextSelection from "../vueUseComponents/UseTextSelection.vue";
 
 
 </script>
