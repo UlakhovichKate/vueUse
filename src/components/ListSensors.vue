@@ -30,6 +30,7 @@
   <use-pointer-lock/>
   <use-pointer-swipe/>
   <use-scroll/>
+  <use-speech-recognition/>
 </template>
 
 <script setup>
@@ -64,7 +65,7 @@ import UsePointer from "../vueUseComponents/UsePointer.vue";
 import UsePointerLock from "../vueUseComponents/UsePointerLock.vue";
 import UsePointerSwipe from "../vueUseComponents/UsePointerSwipe.vue";
 import UseScroll from "../vueUseComponents/UseScroll.vue";
-
+import UseSpeechRecognition from "../vueUseComponents/UseSpeechRecognition.vue";
 
 </script>
 
