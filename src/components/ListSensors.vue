@@ -34,6 +34,7 @@
   <use-speech-synthesis/>
   <use-swipe/>
   <use-text-selection/>
+  <use-user-media/>
 </template>
 
 <script setup>
@@ -72,6 +73,7 @@ import UseSpeechRecognition from "../vueUseComponents/UseSpeechRecognition.vue";
 import UseSpeechSynthesis from "../vueUseComponents/UseSpeechSynthesis.vue";
 import UseSwipe from "../vueUseComponents/UseSwipe.vue";
 import UseTextSelection from "../vueUseComponents/UseTextSelection.vue";
+import UseUserMedia from "../vueUseComponents/UseUserMedia.vue";
 
 
 </script>
