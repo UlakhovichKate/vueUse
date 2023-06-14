@@ -27,6 +27,11 @@ const routes = [
         name: "showListSensors",
         component: () => import("../components/ListSensors.vue"),
       },
+      {
+        path: "network",
+        name: "showListNetwork",
+        component: () => import("../components/ListNetwork.vue"),
+      },
     ],
   },
   {
