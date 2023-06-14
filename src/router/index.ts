@@ -13,9 +13,9 @@ const routes = [
         component: () => import("../components/ListState.vue"),
       },
       {
-        path: "components",
-        name: "showListComponents",
-        component: () => import("../components/ListComponents.vue"),
+        path: "elements",
+        name: "showListElements",
+        component: () => import("../components/ListElements.vue"),
       },
       {
         path: "browser",
@@ -36,6 +36,11 @@ const routes = [
         path: "animation",
         name: "showListAnimation",
         component: () => import("../components/ListAnimation.vue"),
+      },
+      {
+        path: "components",
+        name: "showListComponents",
+        component: () => import("../components/ListComponents.vue"),
       },
     ],
   },
