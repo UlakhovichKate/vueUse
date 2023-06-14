@@ -1,0 +1,69 @@
+<script setup lang="ts">
+import { createTemplatePromise } from '@vueuse/core'
+
+type DialogResult = 'ok' | 'cancel'
+
+const TemplatePromise = createTemplatePromise<DialogResult, [string]>({
+  transition: {
+    name: 'fade',
+    appear: true,
+  },
+})
+
+async function open(idx: number) {
+  console.log(idx, 'Before')
+  const result = await TemplatePromise.start(`Hello ${idx}`)
+  console.log(idx, 'After', result)
+}
+
+function asyncFn() {
+  return new Promise<DialogResult>((resolve) => {
+    setTimeout(() => {
+      resolve('ok')
+    }, 1000)
+  })
+}
+</script>
+
+<template>
+  <h2>Create Template Promise</h2>
+  <div class="flex gap-2">
+    <button class="btn btn-danger" @click="open(1)">
+      Open 1
+    </button>
+    <button class="btn btn-danger" @click="open(2)">
+      Open 2
+    </button>
+    <button class="btn btn-danger" @click="open(1); open(2)">
+      Open 1 & 2
+    </button>
+  </div>
+  <TemplatePromise v-slot="{ resolve, args, isResolving }">
+    <div class="position-fixed top-50 d-flex justify-content-center align-items-center w-50 z-30">
+      <dialog open class="border-gray/10 shadow rounded ma">
+        <div>Dialog {{ args[0] }}</div>
+        <p>Open console to see logs</p>
+        <div class="flex gap-2 justify-end">
+          <button class="w-35" @click="resolve('cancel')">
+            Cancel
+          </button>
+          <button class="w-35" :disabled="isResolving" @click="resolve(asyncFn())">
+            {{ isResolving ? 'Confirming...' : 'OK' }}
+          </button>
+        </div>
+      </dialog>
+    </div>
+  </TemplatePromise>
+</template>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
