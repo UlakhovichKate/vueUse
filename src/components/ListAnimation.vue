@@ -5,6 +5,7 @@
   <use-now/>
   <use-raf-fn/>
   <use-timeout/>
+  <use-timeout-fn/>
 </template>
 
 <script setup>
@@ -14,6 +15,8 @@ import UseIntervalFn from "../vueUseComponents/UseIntervalFn.vue";
 import UseNow from "../vueUseComponents/UseNow.vue";
 import UseRafFn from "../vueUseComponents/UseRafFn.vue";
 import UseTimeout from "../vueUseComponents/UseTimeout.vue";
+import UseTimeoutFn from "../vueUseComponents/UseTimeoutFn.vue";
+
 
 </script>
 
