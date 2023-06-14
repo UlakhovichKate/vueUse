@@ -7,6 +7,7 @@
   <use-timeout/>
   <use-timeout-fn/>
   <use-timestamp/>
+  <use-transition/>
 </template>
 
 <script setup>
@@ -18,6 +19,8 @@ import UseRafFn from "../vueUseComponents/UseRafFn.vue";
 import UseTimeout from "../vueUseComponents/UseTimeout.vue";
 import UseTimeoutFn from "../vueUseComponents/UseTimeoutFn.vue";
 import UseTimestamp from "../vueUseComponents/UseTimestamp.vue";
+import UseTransition from "../vueUseComponents/UseTransition.vue";
+
 
 
 </script>
