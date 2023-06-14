@@ -32,6 +32,11 @@ const routes = [
         name: "showListNetwork",
         component: () => import("../components/ListNetwork.vue"),
       },
+      {
+        path: "animation",
+        name: "showListAnimation",
+        component: () => import("../components/ListAnimation.vue"),
+      },
     ],
   },
   {
