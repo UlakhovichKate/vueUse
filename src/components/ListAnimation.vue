@@ -6,6 +6,7 @@
   <use-raf-fn/>
   <use-timeout/>
   <use-timeout-fn/>
+  <use-timestamp/>
 </template>
 
 <script setup>
@@ -16,6 +17,7 @@ import UseNow from "../vueUseComponents/UseNow.vue";
 import UseRafFn from "../vueUseComponents/UseRafFn.vue";
 import UseTimeout from "../vueUseComponents/UseTimeout.vue";
 import UseTimeoutFn from "../vueUseComponents/UseTimeoutFn.vue";
+import UseTimestamp from "../vueUseComponents/UseTimestamp.vue";
 
 
 </script>
