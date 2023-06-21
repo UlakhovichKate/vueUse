@@ -5,6 +5,7 @@
   <unref-element/>
   <use-current-element/>
   <use-mounted/>
+  <use-template-refs-list/>
 </template>
 
 <script setup>
@@ -14,7 +15,7 @@ import CreateTemplatePromise from "../vueUseComponents/CreateTemplatePromise.vue
 import UnrefElement from "../vueUseComponents/UnrefElement.vue";
 import UseCurrentElement from "../vueUseComponents/UseCurrentElement.vue";
 import UseMounted from "../vueUseComponents/UseMounted.vue";
-
+import UseTemplateRefsList from "../vueUseComponents/UseTemplateRefsList.vue";
 
 </script>
 
