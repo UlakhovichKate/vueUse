@@ -6,6 +6,7 @@
   <use-current-element/>
   <use-mounted/>
   <use-template-refs-list/>
+  <use-virtual-list/>
 </template>
 
 <script setup>
@@ -16,6 +17,8 @@ import UnrefElement from "../vueUseComponents/UnrefElement.vue";
 import UseCurrentElement from "../vueUseComponents/UseCurrentElement.vue";
 import UseMounted from "../vueUseComponents/UseMounted.vue";
 import UseTemplateRefsList from "../vueUseComponents/UseTemplateRefsList.vue";
+import UseVirtualList from "../vueUseComponents/UseVirtualList.vue";
+
 
 </script>
 
