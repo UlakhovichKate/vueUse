@@ -4,6 +4,7 @@
   <create-template-promise/>
   <unref-element/>
   <use-current-element/>
+  <use-mounted/>
 </template>
 
 <script setup>
@@ -12,7 +13,7 @@ import CreateReusableTemplate from "../vueUseComponents/CreateReusableTemplate.v
 import CreateTemplatePromise from "../vueUseComponents/CreateTemplatePromise.vue";
 import UnrefElement from "../vueUseComponents/UnrefElement.vue";
 import UseCurrentElement from "../vueUseComponents/UseCurrentElement.vue";
-
+import UseMounted from "../vueUseComponents/UseMounted.vue";
 
 
 </script>
