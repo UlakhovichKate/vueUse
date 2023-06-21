@@ -42,6 +42,11 @@ const routes = [
         name: "showListComponents",
         component: () => import("../components/ListComponents.vue"),
       },
+      {
+        path: "watch",
+        name: "showListWatch",
+        component: () => import("../components/ListWatch.vue"),
+      },
     ],
   },
   {
