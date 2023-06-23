@@ -52,6 +52,11 @@ const routes = [
         name: "showListReactivity",
         component: () => import("../components/ListReactivity.vue"),
       },
+      {
+        path: "array",
+        name: "showListArray",
+        component: () => import("../components/ListArray.vue"),
+      },
     ],
   },
   {
