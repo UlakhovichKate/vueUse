@@ -10,6 +10,7 @@
       <router-link :to="{ name: 'showListAnimation' }" class="nav__item nav__item_home">Animate</router-link>
       <router-link :to="{ name: 'showListComponents' }" class="nav__item nav__item_home">Components</router-link>
       <router-link :to="{ name: 'showListWatch' }" class="nav__item nav__item_home">Watch</router-link>
+      <router-link :to="{ name: 'showListReactivity' }" class="nav__item nav__item_home">Reactivity</router-link>
     </nav>
   </aside>
   <div>

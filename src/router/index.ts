@@ -47,6 +47,11 @@ const routes = [
         name: "showListWatch",
         component: () => import("../components/ListWatch.vue"),
       },
+      {
+        path: "reactivity",
+        name: "showListReactivity",
+        component: () => import("../components/ListReactivity.vue"),
+      },
     ],
   },
   {
