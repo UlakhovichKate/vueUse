@@ -5,6 +5,7 @@
   <watch-debounced/>
   <watch-deep/>
   <watch-ignorable/>
+  <whenever/>
 </template>
 
 <script setup>
@@ -14,6 +15,7 @@ import WatchAtMost from "../vueUseComponents/WatchAtMost.vue";
 import WatchDebounced from "../vueUseComponents/WatchDebounced.vue";
 import WatchDeep from "../vueUseComponents/WatchDeep.vue";
 import WatchIgnorable from "../vueUseComponents/WatchIgnorable.vue";
+import Whenever from "../vueUseComponents/Whenever.vue";
 
 
 
