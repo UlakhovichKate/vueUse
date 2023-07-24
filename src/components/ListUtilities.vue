@@ -11,6 +11,7 @@
   <use-counter/>
   <use-cycle-list/>
   <use-debounce-fn/>
+  <use-event-bus/>
 </template>
 
 <script setup>
@@ -26,6 +27,8 @@ import UseConfirmDialog from "../vueUseComponents/UseConfirmDialog.vue";
 import UseCounter from "../vueUseComponents/UseCounter.vue";
 import UseCycleList from "../vueUseComponents/UseCycleList.vue";
 import UseDebounceFn from "../vueUseComponents/UseDebounceFn.vue";
+import UseEventBus from "../vueUseComponents/UseEventBus.vue";
+
 
 
 </script>
