@@ -10,6 +10,7 @@
   <use-confirm-dialog/>
   <use-counter/>
   <use-cycle-list/>
+  <use-debounce-fn/>
 </template>
 
 <script setup>
@@ -24,6 +25,7 @@ import UseCloned from "../vueUseComponents/UseCloned.vue";
 import UseConfirmDialog from "../vueUseComponents/UseConfirmDialog.vue";
 import UseCounter from "../vueUseComponents/UseCounter.vue";
 import UseCycleList from "../vueUseComponents/UseCycleList.vue";
+import UseDebounceFn from "../vueUseComponents/UseDebounceFn.vue";
 
 
 </script>
