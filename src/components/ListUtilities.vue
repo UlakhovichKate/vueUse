@@ -13,6 +13,7 @@
   <use-debounce-fn/>
   <use-event-bus/>
   <use-offset-pagination/>
+  <use-previous/>
 </template>
 
 <script setup>
@@ -30,6 +31,7 @@ import UseCycleList from "../vueUseComponents/UseCycleList.vue";
 import UseDebounceFn from "../vueUseComponents/UseDebounceFn.vue";
 import UseEventBus from "../vueUseComponents/UseEventBus.vue";
 import UseOffsetPagination from "../vueUseComponents/UseOffsetPagination.vue";
+import UsePrevious from "../vueUseComponents/UsePrevious.vue";
 
 
 
