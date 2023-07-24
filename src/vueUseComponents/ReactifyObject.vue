@@ -11,7 +11,7 @@ const a = reactifyObject({
   y: 'Y',
 })
 
-console.log(a) // no longer need `.value`
+console.log('Reactify Object ', a) // no longer need `.value`
 </script>
 
 <style scoped>
