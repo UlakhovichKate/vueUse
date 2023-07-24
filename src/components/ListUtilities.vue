@@ -18,6 +18,8 @@
   <use-supported/>
   <use-throttle-fn/>
   <use-timeout-poll/>
+  <use-toggle/>
+  <UseToNumber/>
 </template>
 
 <script setup>
@@ -40,6 +42,9 @@ import UseStepper from "../vueUseComponents/UseStepper.vue";
 import UseSupported from "../vueUseComponents/UseSupported.vue";
 import UseThrottleFn from "../vueUseComponents/UseThrottleFn.vue";
 import UseTimeoutPoll from "../vueUseComponents/UseTimeoutPoll.vue";
+import UseToggle from "../vueUseComponents/UseToggle.vue";
+import UseToNumber from "../vueUseComponents/UseToNumber.vue";
+
 
 
 </script>
