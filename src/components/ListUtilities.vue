@@ -17,6 +17,7 @@
   <use-stepper/>
   <use-supported/>
   <use-throttle-fn/>
+  <use-timeout-poll/>
 </template>
 
 <script setup>
@@ -38,6 +39,8 @@ import UsePrevious from "../vueUseComponents/UsePrevious.vue";
 import UseStepper from "../vueUseComponents/UseStepper.vue";
 import UseSupported from "../vueUseComponents/UseSupported.vue";
 import UseThrottleFn from "../vueUseComponents/UseThrottleFn.vue";
+import UseTimeoutPoll from "../vueUseComponents/UseTimeoutPoll.vue";
+
 
 </script>
 
