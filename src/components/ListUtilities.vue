@@ -4,6 +4,7 @@
   <uti-set/>
   <is-defined/>
   <use-async-queue/>
+  <use-base64/>
 </template>
 
 <script setup>
@@ -12,6 +13,7 @@ import Get from "../vueUseComponents/Get.vue";
 import IsDefined from "../vueUseComponents/IsDefined.vue";
 import UtiSet from "../vueUseComponents/UtiSet.vue";
 import UseAsyncQueue from "../vueUseComponents/UseAsyncQueue.vue";
+import UseBase64 from "../vueUseComponents/UseBase64.vue";
 
 
 
