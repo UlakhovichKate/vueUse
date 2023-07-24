@@ -7,6 +7,7 @@
   <use-base64/>
   <use-cached/>
   <use-cloned/>
+  <use-confirm-dialog/>
 </template>
 
 <script setup>
@@ -18,6 +19,8 @@ import UseAsyncQueue from "../vueUseComponents/UseAsyncQueue.vue";
 import UseBase64 from "../vueUseComponents/UseBase64.vue";
 import UseCached from "../vueUseComponents/UseCached.vue";
 import UseCloned from "../vueUseComponents/UseCloned.vue";
+import UseConfirmDialog from "../vueUseComponents/UseConfirmDialog.vue";
+
 
 
 </script>
