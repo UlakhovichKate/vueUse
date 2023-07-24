@@ -1,0 +1,29 @@
+<script setup lang="ts">
+import { useAsyncQueue } from '@vueuse/core'
+
+function p1() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(1000)
+    }, 10)
+  })
+}
+
+function p2(result: number) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(1000 + result)
+    }, 20)
+  })
+}
+
+const { activeIndex, result } = useAsyncQueue([p1, p2])
+</script>
+
+<template>
+  <h2>Use Async Queue</h2>
+  <div>
+    <p>activeIndex: {{ activeIndex }}</p>
+    <p>result: {{ result }}</p>
+  </div>
+</template>
