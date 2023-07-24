@@ -8,6 +8,7 @@
   <use-cached/>
   <use-cloned/>
   <use-confirm-dialog/>
+  <use-counter/>
 </template>
 
 <script setup>
@@ -20,7 +21,7 @@ import UseBase64 from "../vueUseComponents/UseBase64.vue";
 import UseCached from "../vueUseComponents/UseCached.vue";
 import UseCloned from "../vueUseComponents/UseCloned.vue";
 import UseConfirmDialog from "../vueUseComponents/UseConfirmDialog.vue";
-
+import UseCounter from "../vueUseComponents/UseCounter.vue";
 
 
 </script>
