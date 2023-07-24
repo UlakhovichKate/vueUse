@@ -1,7 +1,7 @@
 <template>
   <h2>Get</h2>
   <pre>const a = ref(42)</pre>
-  (console.log)
+  {{ a }} + console.log (get(a))
 </template>
 
 <script setup>
