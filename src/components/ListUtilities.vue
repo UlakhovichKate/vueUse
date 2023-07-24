@@ -16,6 +16,7 @@
   <use-previous/>
   <use-stepper/>
   <use-supported/>
+  <use-throttle-fn/>
 </template>
 
 <script setup>
@@ -36,8 +37,7 @@ import UseOffsetPagination from "../vueUseComponents/UseOffsetPagination.vue";
 import UsePrevious from "../vueUseComponents/UsePrevious.vue";
 import UseStepper from "../vueUseComponents/UseStepper.vue";
 import UseSupported from "../vueUseComponents/UseSupported.vue";
-
-
+import UseThrottleFn from "../vueUseComponents/UseThrottleFn.vue";
 
 </script>
 
