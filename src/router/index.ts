@@ -57,6 +57,11 @@ const routes = [
         name: "showListArray",
         component: () => import("../components/ListArray.vue"),
       },
+      {
+        path: "time",
+        name: "showListTime",
+        component: () => import("../components/ListTime.vue"),
+      },
     ],
   },
   {
