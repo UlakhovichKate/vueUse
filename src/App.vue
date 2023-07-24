@@ -13,6 +13,7 @@
       <router-link :to="{ name: 'showListReactivity' }" class="nav__item nav__item_home">Reactivity</router-link>
       <router-link :to="{ name: 'showListArray' }" class="nav__item nav__item_home">Array</router-link>
       <router-link :to="{ name: 'showListTime' }" class="nav__item nav__item_home">Time</router-link>
+      <router-link :to="{ name: 'showListUtilities' }" class="nav__item nav__item_home">Utilities</router-link>
     </nav>
   </aside>
   <div>
