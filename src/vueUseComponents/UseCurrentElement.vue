@@ -10,6 +10,5 @@ watchEffect(() => {
 </script>
 
 <template>
-  <h2>Use Current Element</h2>
-  <div>Open your console.log to see the element</div>
+  <h2>Use Current Element <span>(Open your console.log to see the element)</span></h2>
 </template>

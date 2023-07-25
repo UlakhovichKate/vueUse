@@ -44,6 +44,13 @@ aside {
   padding: 50px 0;
 }
 
+
+@media (max-width: 1024px) {
+  aside {
+    display: none;
+  }
+}
+
 aside nav {
   position: fixed;
   display: flex;

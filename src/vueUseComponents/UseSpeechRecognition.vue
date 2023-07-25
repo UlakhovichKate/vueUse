@@ -72,24 +72,24 @@ watch(isListening, isListening => isListening ? null : selectedLanguage.value = 
       >more details</a>
     </div>
     <div v-else>
-      <div space-x-4>
-        <label class="radio">
+      <div class="d-flex w-50 mb-3">
+        <label class="radio col-4">
           <input v-model="lang" value="en-US" type="radio">
           <span>English (US)</span>
         </label>
-        <label class="radio">
+        <label class="radio col-4">
           <input v-model="lang" value="fr" type="radio">
           <span>French</span>
         </label>
-        <label class="radio">
+        <label class="radio col-4">
           <input v-model="lang" value="es" type="radio">
           <span>Spanish</span>
         </label>
       </div>
-      <button v-if="!isListening" @click="start">
+      <button v-if="!isListening" @click="start" class="btn btn-danger">
         Press and talk
       </button>
-      <button v-if="isListening" class="orange" @click="stop">
+      <button v-if="isListening" @click="stop" class="btn btn-outline-danger">
         Stop
       </button>
       <div v-if="isListening" class="mt-4">

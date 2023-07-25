@@ -44,6 +44,7 @@ const pointStyles = computed(() => {
 <template>
   <h2>Use Element By Point</h2>
 
+  <pre>{{ element }}</pre>
   <label>
     Switch on Point
     <input type="checkbox" v-model="pointOn">

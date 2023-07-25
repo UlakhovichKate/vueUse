@@ -2,7 +2,7 @@
   <h2>Watch At Most</h2>
   <p>{{ source }}</p>
   <button class="btn btn-primary" @click="source++">Increase</button>
-  <p>Look at console.log</p>
+  <p>Look at console.log (triggered it at most 3 times)</p>
 </template>
 
 <script setup>

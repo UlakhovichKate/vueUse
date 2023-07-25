@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { useVibrate } from '@vueuse/core'
 import {ref} from "vue";
 

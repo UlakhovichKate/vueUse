@@ -20,10 +20,10 @@ watch(refs, async () => {
     {{ i }}
   </span>
   <br>
-  <button @click="count += 1">
+  <button @click="count += 1" class="btn btn-info">
     Inc
   </button>
-  <button :disabled="count <= 0" @click="count -= 1">
+  <button :disabled="count <= 0" @click="count -= 1" class="btn btn-info mx-2">
     Dec
   </button>
   <p>Open the console to see the output</p>

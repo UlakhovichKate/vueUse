@@ -18,11 +18,11 @@ const onClickOutsideHandler = [
 
 <template>
   <h2>On Click Outside</h2>
-  <button class="btn" @click="modal = true">
+  <button class="btn btn-primary" @click="modal = true">
     Open Modal
   </button>
 
-  <div class="btn" ref="ignoreElRef">
+  <div ref="ignoreElRef">
     click outside ignore element
   </div>
 

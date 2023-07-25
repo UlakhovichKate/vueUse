@@ -1,5 +1,5 @@
 <template>
-  <h2>Unfer Element</h2>
+  <h2>Unref Element</h2>
   <div ref="div"/>
   <HelloWorld ref="hello"/>
 </template>

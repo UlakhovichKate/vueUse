@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { reactive } from 'vue'
+import {reactive, ref} from 'vue'
 import { useMouse, useParentElement } from '@vueuse/core'
 import type { UseMouseEventExtractor } from '@vueuse/core'
 
-const parentEl = useParentElement()
+const tooltip = ref<HTMLElement | undefined>()
+const parentEl = useParentElement(tooltip)
 
 const mouseDefault = reactive(useMouse())
 
@@ -18,8 +19,12 @@ const mouseWithExtractor = reactive(useMouse({ target: parentEl, type: extractor
 
 <template>
   <h2>Use Mouse</h2>
-  <p>Basic Usage</p>
-  <pre>{{ mouseDefault }}</pre>
-  <p>Extractor Usage</p>
-  <pre>{{ mouseWithExtractor }}</pre>
+  <div class="bg-light w-50">
+    <p>Basic Usage</p>
+    <pre>{{ mouseDefault }}</pre>
+    <div ref="tooltip" class="extractor">
+      <p>Extractor Usage</p>
+      <pre>{{ mouseWithExtractor }}</pre>
+    </div>
+  </div>
 </template>

@@ -26,10 +26,10 @@ const { coords, locatedAt, error, resume, pause } = useGeolocation()
             2,
         )
       }}</pre>
-    <button @click="pause">
+    <button @click="pause" class="btn btn-outline-primary">
       Pause watch
     </button>
-    <button @click="resume">
+    <button @click="resume" class="btn btn-primary">
       Start watch
     </button>
   </div>

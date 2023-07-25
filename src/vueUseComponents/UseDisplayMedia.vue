@@ -13,21 +13,16 @@ watchEffect(() => {
 
 <template>
   <h2>Use Display Media</h2>
-  <div class="flex flex-col gap-4 text-center">
-    <div>
-      <button @click="enabled = !enabled">
-        {{ enabled ? 'Stop' : 'Start' }} sharing my screen
-      </button>
-    </div>
-
-    <div>
-      <video
-          ref="video"
-          muted
-          autoplay
-          controls
-          class="h-100 w-auto"
-      />
-    </div>
+  <button class="btn btn-primary mb-3" @click="enabled = !enabled">
+    {{ enabled ? 'Stop' : 'Start' }} sharing my screen
+  </button>
+  <div>
+    <video
+        ref="video"
+        muted
+        autoplay
+        controls
+        class="h-100 w-75"
+    />
   </div>
 </template>
